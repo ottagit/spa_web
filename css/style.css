@@ -20,8 +20,15 @@
     font-family: "Roboto Condensed", sans-serif;
   }
 
+  p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
   h3 {
     text-transform: uppercase;
+    color: #41464b;
   }
 
   /* Home */
@@ -101,4 +108,58 @@
 
   #home-btn {
     animation-delay: 1s;
+  }
+
+  /*=========Content Box (Generic)========*/  
+
+  .content-box {
+    padding: 60px 0 60px 0;
+  }
+
+  .content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+
+  .content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+  }
+
+  /*=========Services========*/
+
+  .service-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .service-item-icon {
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+  }
+
+  .service-item:hover .service-item-icon {
+    color: #fff;
+    background-color: #34c6d3;
+  }
+
+  .service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10 0;
+  }
+
+  .service-item-desc {
+    margin: 0;
+    padding-left: 85px;
   }
