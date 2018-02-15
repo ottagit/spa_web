@@ -232,3 +232,56 @@
     transform: scale(1.5);
     cursor: zoom-in;
   }
+
+  /*=========Team========*/
+
+  .coach {
+    margin: 0 15px 0 15px;
+  }
+
+  .coach-info {
+    padding: 10px 0 30px 0;
+  }
+
+  h4.coach-name {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+  }
+
+  h4.coach-designation {
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 5px;
+  }
+
+  /*=========Social Icons========*/
+
+  .social-list {
+    padding-left: 0;
+  }
+
+  .social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+  }
+
+  .social-icon {
+    font-size: 17px;
+  }
+
+  .icon-gray {
+    color: #64707b;
+  }
+
+  .social-icon:hover {
+    color: #34c6d3;
+  }
