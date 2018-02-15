@@ -14,3 +14,8 @@ $(function() {
     }
   })
 });
+
+/* Team Owl Carousel */
+$(function(){
+  $("#coaches").owlCarousel();
+});
