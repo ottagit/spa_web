@@ -25,3 +25,14 @@ $(function(){
     autoplayHoverPause: true
   });
 });
+
+/* Testimonials Owl Carousel */
+$(function(){
+  $("#student-testimonials").owlCarousel({
+    items: 1,
+    autoplay: true,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true
+  });
+});
