@@ -16,7 +16,7 @@ $(function() {
 });
 
 /* Team Owl Carousel */
-$(function(){
+$(function() {
   $("#coaches").owlCarousel({
     items: 3,
     autoplay: true,
@@ -27,12 +27,20 @@ $(function(){
 });
 
 /* Testimonials Owl Carousel */
-$(function(){
+$(function() {
   $("#student-testimonials").owlCarousel({
     items: 1,
     autoplay: true,
     smartSpeed: 700,
     loop: true,
     autoplayHoverPause: true
+  });
+});
+
+/* Stats */
+$(function() {
+  $(".counter").counterUp({
+    delay: 10,
+    time: 2000
   });
 });
