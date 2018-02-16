@@ -439,3 +439,14 @@
     font-weight: 300;
     margin-top: 0;
   }
+
+  /*=========Clients========*/
+
+  .client {
+    padding: auto;
+  }
+
+  .client img {
+    max-width: 100px;
+    margin: auto;
+  }
