@@ -55,3 +55,19 @@ $(function() {
     autoplayHoverPause: true
   });
 });
+
+// Shoe/Hide transparent black nav
+
+/* Navigation */
+$(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() < 50 ) {
+      // hide nav
+      $("nav").removeClass("academy-top-nav");
+    }
+    else {
+      // show nav
+      $("nav").addClass("academy-top-nav");
+    }
+  })
+})
