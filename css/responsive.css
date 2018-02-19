@@ -1,0 +1,31 @@
+/* Large devices (Desktops and Laptops) */
+@media (min-width: 1200px) {
+
+}
+
+/* Medium devices (Landscape tablets and Medium Laptops) */
+@media (min-width: 992px) and (max-width: 1199px){
+  
+}
+
+/* Small devices (Portrait tablets and Samll Laptops) */
+@media (min-width: 768px) and (max-width: 991px){
+  
+}
+
+/* Extra small devices (Landscape phones and Portrait tablets) */
+@media (max-width: 767px) {
+
+}
+
+/* Extra small devices (smaller devices) */
+@media (max-width: 480px) {
+  
+}
+
+/* Extra small devices (smaller devices) */
+@media (max-width: 320px) {
+  
+}
+
+
