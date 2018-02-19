@@ -565,6 +565,10 @@
     padding: 7px 0;
   }
 
+  .navbar-nav {
+    float: right;
+  }
+
   .navbar-nav> li> a {
     color: #fff;
     font-size: 15px;
