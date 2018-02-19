@@ -1,11 +1,14 @@
 /* Large devices (Desktops and Laptops) */
 @media (min-width: 1200px) {
-
+ /* Cool */
 }
 
 /* Medium devices (Landscape tablets and Medium Laptops) */
 @media (min-width: 992px) and (max-width: 1199px){
-  
+  .navbar {
+    background-color:rgba(0, 0, 0, .7);
+    padding: 0;
+  }
 }
 
 /* Small devices (Portrait tablets and Samll Laptops) */
