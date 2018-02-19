@@ -1,10 +1,10 @@
-/* Program */
+// Program 
 
 $(function() {
   new WOW().init();
 });
 
-/* Training sessions */
+// Training sessions 
 $(function() {
   $("#work").magnificPopup({
     delegate: 'a',
@@ -15,7 +15,7 @@ $(function() {
   })
 });
 
-/* Team Owl Carousel */
+// Team Owl Carousel 
 $(function() {
   $("#coaches").owlCarousel({
     items: 3,
@@ -26,7 +26,7 @@ $(function() {
   });
 });
 
-/* Testimonials Owl Carousel */
+// Testimonials Owl Carousel
 $(function() {
   $("#student-testimonials").owlCarousel({
     items: 1,
@@ -37,7 +37,7 @@ $(function() {
   });
 });
 
-/* Stats */
+//* Stats
 $(function() {
   $(".counter").counterUp({
     delay: 10,
@@ -45,7 +45,7 @@ $(function() {
   });
 });
 
-/* Clients Owl Carousel */
+//Clients Owl Carousel 
 $(function() {
   $("#clients-list").owlCarousel({
     items: 3,
@@ -58,7 +58,7 @@ $(function() {
 
 // Shoe/Hide transparent black nav
 
-/* Navigation */
+// Navigation 
 $(function() {
   $(window).scroll(function() {
     if ($(this).scrollTop() < 50 ) {
@@ -70,4 +70,17 @@ $(function() {
       $("nav").addClass("academy-top-nav");
     }
   })
-})
+});
+
+// Smooth scroll
+$(function(){
+  $(".smooth-scroll").on( 'click', 'a', function(event) {
+    event.preventDefault();
+
+    let section = $(this).attr("href");
+    // return section id like #home #services
+    $("htm, body").animate({
+      scrollTop: $(section).offset().top
+    }, 1250, "easeInOutExpo");
+  });
+});
