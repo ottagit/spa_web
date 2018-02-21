@@ -16,6 +16,9 @@
   .testimonial blockquote p {
     font-size: 16px;
   }
+  #footer-copyrights {
+    text-align: center;
+  }
  }
 
 /* Small devices (landscape phones, 576px and up) */

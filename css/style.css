@@ -180,7 +180,7 @@
   .service-item-title h3 {
     font-size: 20px;
     font-weight: 400;
-    margin: 0 0 10 0;
+    margin: 0px 0px 10px 0px;
   }
 
   .service-item-desc {
@@ -455,10 +455,6 @@
 
   /*=========Clients========*/
 
-  .client {
-    padding: auto;
-  }
-
   .client img {
     max-width: 100px;
     margin: auto;
@@ -526,7 +522,7 @@
   #footer-menu {
     float: left;
     color: #fff;
-    font-size: 16;
+    font-size: 16px;
     font-weight: 300;
   }
 
